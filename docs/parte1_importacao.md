@@ -129,7 +129,7 @@ Decisões de modelagem documentadas no próprio DDL:
 | `len(df)` exibido como “registros inseridos” | contagem falsa: mostrava o total da planilha mesmo com falhas | conta `cur.rowcount` e confere `SELECT COUNT(*)` no banco |
 | `df.iloc[:, :12]` + renomeação posicional em `pedido_compra` | podia desalinhar colunas se a planilha mudasse | leitura por nome, descartando colunas vazias `Unnamed` |
 | senha `1234` fixa no código | credencial exposta no repositório | conexão por variáveis de ambiente, com exemplos |
-| suporte apenas a PostgreSQL | o enunciado pede MySQL e PostgreSQL | `DB_DIALECT=postgres|mysql`; SQL de conflito e prefixo de schema adaptados |
+| suporte apenas a PostgreSQL | o enunciado pede MySQL e PostgreSQL | `DB_DIALECT` = `postgres` ou `mysql`; SQL de conflito e prefixo de schema adaptados |
 | datas de entrega anteriores ao pedido, ordens órfãs etc. | erros de negócio nos dados | **não** foram mascarados na carga; foram catalogados na Parte 4 |
 
 ## Tratamentos aplicados aos dados
