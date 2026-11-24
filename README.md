@@ -10,8 +10,7 @@
 
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| João Marcos Sampaio de Oliveira | 2396454 | Sampaiooju |
 
 ## O cenário
 
